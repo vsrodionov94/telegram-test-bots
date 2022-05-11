@@ -16,7 +16,7 @@ bot1.command('start', (ctx) => {
   return ctx.replyWithHTML(
     'Запустите приложение!',
     Markup.keyboard([
-      Markup.button.webApp('Open', URL_1)
+      Markup.button.webApp('Открыть бота', URL_1)
     ]).resize()
   )
 })
@@ -29,7 +29,7 @@ bot2.command('start', (ctx) => {
   return ctx.replyWithHTML(
     'Запустите приложение!',
     Markup.keyboard([
-      Markup.button.webApp('Open', URL_2)
+      Markup.button.webApp('Открыть бота', URL_2)
     ]).resize()
   )
 })
@@ -42,7 +42,7 @@ bot3.command('start', (ctx) => {
   return ctx.replyWithHTML(
     'Запустите приложение!',
     Markup.keyboard([
-      Markup.button.webApp('Open', URL_3)
+      Markup.button.webApp('Открыть бота', URL_3)
     ]).resize()
   )
 })
